@@ -29,14 +29,7 @@ public final class Coordinate {
 		return rank;
 	}
 	
-	/*
-	 * Erstellen Sie in der Klasse Coordinate eine public Methode mit dem Namen getAlgebraicNotation(). Diese
-		Methode soll einen String zurückgeben, der aus einem Buchstaben (für die Spalte) und einer Zahl (für die Zeile)
-			besteht. Diese Darstellung eines Felds heißt algebraische (Schach)Notation1.
-			Speichern Sie dazu die Buchstaben der Spalten ("a" bis "h") in einem Array vom Typ String. Dieses Array benötigen
-	Sie, um den numerischen Spaltenwert (file) in den entsprechenden Buchstaben der algebraischen Schachnotation
-	umzuwandeln. Verwenden Sie anschließend die Werte von file und rank, um die vollständige Notation zu erzeugen.
-		 */
+
 	public String getAlgebraicNotation() {
 		String fileLetter;
 		String[] fileLetters= { "a","b","c","d","e","f","g","h"};
